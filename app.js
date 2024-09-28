@@ -1,8 +1,21 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const btn = document.querySelector('.talk');
 const content = document.querySelector('.content');
 const status = document.querySelector('.status'); // New reference for status message
 let isListening = false; // Flag to track if currently listening
 
+
+function MyApp({ Component, pageProps }) {
+    return (
+      <>
+        <SpeedInsights />
+        <Component {...pageProps} />
+      </>
+    );
+  }
+  
+  export default MyApp;
+  
 function speak(text) {
     const text_speak = new SpeechSynthesisUtterance(text);
     text_speak.rate = 1;
