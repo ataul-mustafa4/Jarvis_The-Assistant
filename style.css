@@ -56,7 +56,7 @@
   width: 40vw;
   height: 50px;
   border-radius: 20px;
-  background: rgb(202 253 255 / 50%);
+  background: rgba(0, 62, 175, 0.5);
 }
 
 .main .input .talk {
@@ -80,5 +80,196 @@
 .main .input .content {
   color: #aed0d0;
   font-size: 15px;
+  margin-right: 20px;
+}
+
+/* About me section Style */
+.about {
+  background-color: #1a1a1a;
+  color: #00bcd4;
+  padding: 40px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #00bcd4;
+  font-size: 30px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #ff5722;
+}
+
+
+/* New Styles */
+/* About Page Styling *//* About Page Styling */
+.about-section {
+  background: #000000; /* Soft off-white background */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-header {
+  font-size:30px;
+  padding:30px;
+  font-weight: bold;
+  color: #1f85eb; /* Deep navy for title */
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  background: #cddd64; /* White content box */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(57, 0, 21, 0.2); /* Subtle shadow for depth */
+}
+
+.creator-photo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #FF6F61; /* Coral border around the photo */
+}
+
+.about-info h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2C3E50; /* Deep navy for headings */
+}
+
+.about-info .role {
+  font-size: 20px;
+  color: #FF6F61; /* Coral for role */
+  margin-bottom: 20px;
+}
+
+.about-info .description {
+  font-size: 18px;
+  color: #000000; /* Dark slate gray for readability */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-btn {
+  font-size: 30px;
+  color: #1ABC9C; /* Light teal for social icons */
+  margin-right: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-btn:hover {
+  color: #FF6F61; /* Coral for hover effects */
+}
+
+/* Back to Jarvis Button */
+.back-to-jarvis {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #28048d; /* Coral for button */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-to-jarvis:hover {
+  background-color: #1ABC9C; /* Light teal on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Floating Button */
+.floating-about-button {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background-color: #0810a9; /* Coral for button */
+  color: #fff; /* White text */
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  transition: background-color 0.3s ease;
+}
+
+.floating-about-button:hover {
+  background-color: #095bde; /* Light teal hover for button */
+}
+
+
+.main .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(21, 103, 174, 0.5);
+  transition: background 0.3s; /* Smooth transition */
+}
+
+.main .input:hover {
+  background: rgba(2, 71, 151, 0.8); /* Slightly darker on hover */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.main .input:hover .content {
+  color: #ffffff; /* Change text color to white on hover */
+}
+
+.main .input .content {
+  color: #aed0d0; /* Original text color */
+  font-size: 20px;
   margin-right: 20px;
 }
