@@ -171,7 +171,7 @@ function wishMe() {
 }
 
 window.addEventListener('load', () => {
-    speak("Initializing JARVIS..");
+    speak("...Initializing Jarvis an Assistant crafted by Mustafa..");
     populateVoiceList(); // Populate voice list
     wishMe();
 });
